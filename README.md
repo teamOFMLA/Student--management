@@ -1,5 +1,4 @@
-# 🍊 school-management-system 
-PHP School management system developed for schools or small institutes. You can use this to maintain record's related to students, teachers, and other. [Click here to view a live demo](http://school-management-system.000.pe/?i=1)
+# 🍊 institue-management-system 
 
 
 
@@ -11,89 +10,25 @@ PHP School management system developed for schools or small institutes. You can 
   5. HTML, CSS
 
 ## 💡 FEATURES 
-  1. student record management
-  2. Teacher record management 
-  3. Leave Management
-  4. Notice Upload 
-  5. Exam result upload
-  6. Notes upload
-  7. Bus Service  
-  8. Syllabus upload / update
-  9. Time table
-  10. Attendence Management
-  11. Password reset, Forgot password
-  12. Front Page 
-  13. Single login
-  14. Dark theme support
-
-## 🦤 SCREENSHOTS
-
-### Pre-View
-<div style="display: flex;flex-direction: column; grid-gap: 10px;">
-     <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/1.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/2.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-</div>
-<br>
-
-### Admin View
-<div style="display: flex;flex-direction: column; grid-gap: 10px;">
-   <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/3.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/4.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-     <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/5.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/6.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-     <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/7.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/8.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-     <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/9.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/10.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-</div>
-<br>
-
-### Teacher View
-<div style="display: flex;flex-direction: column; grid-gap: 10px;">
-    <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/11.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/12.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-</div>
-<br>
-
-### Student View
-<div style="display: flex;flex-direction: column; grid-gap: 10px;">
-   <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/13.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/14.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-    <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/15.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/16.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-    <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/20.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
+1. User Registration: Allows users to create a new account by filling in required fields such as name, email, phone number, password, and course selection.
+2. User Login: Enables users to access the system securely using their email and password with proper validation.
+3. Course Enrollment: Allows users to select a course and enroll while preventing duplicate registrations.
+4. Front Page: Displays a welcome message and provides links to courses and tests.
+5. Admin Dashboard: Allows administrators to view all students and courses, manage learning cards, send notifications, and monitor statistics.
+6. User Dashboard: Provides users with their progress, enrolled courses, test results, and access to educational materials.
+7. Change Password: Enables users to update their current password while ensuring password strength.
+8. User Logout: Allows users to securely log out and clears session data.
+9. Placement Test: Allows users to take a placement test and store their results.
+10. Take Test: Provides functionality for students to complete tests, save their answers, and calculate results.
+11. Admin Settings: Enables administrators to modify platform settings and save changes.
+12. Card Management: Allows CRUD operations on learning cards, including creating, reading, updating, and deleting cards.
+13. Notifications: Enable sending and receiving alerts between the admin and users.
+14. Add Student: Allows the admin to manually add new students to the system.
+15. View Students: Provides administrators with a complete view of all student records.
+16. Delete Student: Allows the admin to remove any student from the system.
+17. Edit Student: Enables updating student details efficiently.
     
-</div>
-<br>
 
-
-### Owner View
-<div style="display: flex;flex-direction: column; grid-gap: 10px;">
-    <div style="display: flex; grid-gap: 10px;">
-        <img src="screenshots/17.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-        <img src="screenshots/19.png" alt="screenshots" width="49%" style="border: 2px solid lightgreen"/>
-    </div>
-    
-</div>
-<br>
 
 ## ✅ HOW TO USE?
 
@@ -112,10 +47,10 @@ PHP School management system developed for schools or small institutes. You can 
    <br><br>
    Copy the downloaded folder and place it into htdocs folder. Located at <i>C:\xampp\htdocs</i>
    <br><br>
-   make sure your directory setup is like : <i>C:\xampp\htdocs\school-management-system\ </i> : and index.php file is available on the that location
+   make sure your directory setup is like : <i>C:\xampp\htdocs\Student--management\ </i> : and index.php file is available on the that location
 
 <b>Step-4 :</b> Run the application <br>
-   <b> visit on the url : <i>http://localhost/school-management-system</i> </b>
+   <b> visit on the url : <i>http://localhost/Student--management</i> </b>
    <br> Visit to the given URL to see the running website
 
 ## 🔐 Emails and Passwords
